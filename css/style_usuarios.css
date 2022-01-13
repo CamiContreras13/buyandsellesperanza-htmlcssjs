@@ -1,0 +1,94 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --dark:#191970;
+    --primary:#5dade2;
+    --white:#ffffff;
+}
+.navbar{
+    min-height: 50px;
+    padding-right: 50px;
+}
+.btn-primary{
+    margin: 3px;
+    background-color: var(--dark);
+    border-color: var(--dark);
+    width: 150px;
+}
+.btn-primary:hover{
+    background-color: var(--white);
+    border-color: var(--dark);
+    color: var(--dark);
+}
+#logo_navbar{
+    width: 60px;
+    height: 60px;
+    margin-left: 90px;
+    border-radius: 3px;
+}
+#home{
+    margin-left: 5px;
+}
+#h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--dark);
+    font-size: large;
+}
+h1{
+    color: var(--dark);
+}
+#recuadro{
+    border: solid 2px var(--dark);
+    border-radius: 4px;
+    width: 200px;
+    height: 280px;
+    padding: 20px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+#file{
+    display: none;
+}
+#boton_subir{
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0;
+    margin-top:2px;
+    margin-left: 20px;
+    padding: 0;  
+    color:var(--dark);
+    border: 1px solid var(--dark);
+    background-color: var(--white);
+}
+#boton_subir:hover{
+    background-color: var(--dark);
+    color: var(--white);
+    border: 1px solid var(--dark);
+}
+#h4{
+    color: var(--dark);
+}
+img{
+    width: 170px;
+    height: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 4px;
+}
+#form{
+    width: 300px;
+}
+#guardar{
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: 4px;
+}
+#guardar:hover{
+    background-color: var(--white);
+    color: var(--dark);
+    border: 1px solid var(--dark);
+}
