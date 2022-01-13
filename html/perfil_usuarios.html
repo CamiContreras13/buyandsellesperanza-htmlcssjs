@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Bootstrap CSS -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"
+        />
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <!--Archivo CSS-->
+        <link rel="stylesheet" href="../css/style_usuarios.css">
+        <title>Perfil Usuarios</title>
+    </head>
+    <body>
+       <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-absolute w-100">
+            <div class="container-fluid">
+            <img id="logo_navbar"src="../img/logo.svg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item d-flex">
+                    <a class="nav-link text-dark fw-bolder me-2 align-self-center active" id="ayuda" aria-current="page" href="#">Ayuda</a>
+                </li>
+                <li class="nav-item d-flex">
+                    <a class="nav-link text-dark fw-bolder me-2 align-self-center active" id="home" aria-current="page" href="../html/index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle dark-text fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Usuarios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item dark-text fw-bold" href="../html/perfil_usuarios.html">Perfil</a></li>
+                    <li><a class="dropdown-item dark-text fw-bold" href="../html/index.html">Cerrar Sesión</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item d-flex">
+                    <a class="btn btn-primary fw-bold align-self-center" href="../html/inicio.html">Volver</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav><br><br><br><br>
+        <!--Título-->
+        <section id="container"class="d-flex">
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                     <h1 class="fw-bold">DATOS USUARIO:</h1>
+                     <br>
+                     <h3 class="fw-bold"><ion-icon name="alert-circle"></ion-icon>Completar por ÚNICA vez</h3>
+                     <br>
+                     <h4 id="h4"class="fw-bold">IMAGEN DE PERFIL DE USUARIO</h4>
+                    </div>  
+              </div>
+                <div class="row">">
+                    <div id="recuadro" class="col-lg-6">
+                        <input type="file"name="archivo" id="file" accept=".jpg,.png">
+                        <input type="button" value="AÑADIR FOTO " id="boton_subir" class="fw-bold mb-2"onclick="document.getElementById('file').click()"><br>
+                        <div id="preview"></div> 
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 id="h4" class="fw-bold">Nombre y Apellido:</h4>
+                        <input type="text" class="fw-bold" id="form" placeholder="Ingrese nombre y apellido">
+                        <h4 id="h4" class="fw-bold">Nombre Usuario:</h4>
+                        <input type="text" class="fw-bold" id="form" placeholder="Ingrese nombre de usuario">
+                        <h4 id="h4" class="fw-bold">Número de contacto:</h4>
+                        <input type="text" class="fw-bold" id="form" placeholder="Ingrese su número de contacto">
+                        <h4 id="h4" class="fw-bold">Dirección y localidad:</h4>
+                        <input type="text" class="fw-bold" id="form" placeholder="Ingrese dirección y localidad">
+                        <input type="button" value="GUARDAR" id="guardar" class="fw-bold mt-2">
+                    </div>
+                </div>             
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+     <!--Bootstrap Bundle with Popper -->
+     <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+     ></script>
+     <!--Iconos-->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+     <!--Archivo JS-->
+     <script src="../app.js"></script>
+  </body>
+</html>

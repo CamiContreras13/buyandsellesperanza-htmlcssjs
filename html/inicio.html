@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <!--Archivo CSS-->
+    <link href="../css/style_categorias.css" rel="stylesheet">
+    <title>Inicio - Buy And Sell Esperanza</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light position-absolute w-100">
+          <div class="container-fluid">
+            <img id="logo_navbar"src="../img/logo.svg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item d-flex">
+                  <a class="nav-link text-dark fw-bolder me-2 align-self-center active" id="ayuda" aria-current="page" href="#">Ayuda</a>
+                </li>
+                <li class="nav-item d-flex">
+                  <a class="nav-link text-dark fw-bolder me-2 align-self-center active" id="home" aria-current="page" href="../html/index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle dark-text fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Usuarios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item dark-text fw-bold" href="../html/perfil_usuarios.html">Perfil</a></li>
+                    <li><a class="dropdown-item dark-text fw-bold" href="../html/index.html">Cerrar Sesión</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item d-flex">
+                  <a class="btn btn-primary fw-bold align-self-center" href="../html/index.html">Volver</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+    
+    <br><br><br><br>
+
+    <!--TÍTULO-->
+    <section id="container"class="d-flex">
+      <div class="container">
+        <div class="row">
+          </ion-icon><h3 id="h3"class="center fw-bold"><ion-icon class="lupa"name="search-circle-outline"></ion-icon>Selecciona la categoría que estás buscando:</h3>  
+        </div>
+      </div>
+    </section>
+    <!--CATEGORIAS-->
+    <section id="categorias" class="mb-4">
+      <div class="container d-block">
+        <div class="row text-center">
+          <div class="col-lg-12 mt-3">
+            <a id="categ"class="fw-bold active mb-3"href="#vehiculos">VEHÍCULOS</a>
+            <a id="categ"class="fw-bold active mb-3"href="#alquileres">ALQUILERES</a>
+            <a id="categ"class="fw-bold active mb-3"href="#ropaycalzado">ROPA Y CALZADO</a>
+            <a id="categ"class="fw-bold active mb-3"href="#electronica">ELECTRÓNICA</a>
+            <a id="categ"class="fw-bold active mb-3"href="#hogar">HOGAR</a>
+            <a id="categ"class="fw-bold active mb-3"href="#alimentos">ALIMENTOS</a>
+            <a id="categ"class="fw-bold active mb-3"href="#empleos">EMPLEOS</a>
+            <a id="categ"class="fw-bold active mb-3"href="#jardineria">JARDINERÍA</a>
+            <a id="categ"class="fw-bold active mb-3"href="#varios">VARIOS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--CARDS-->
+    <!--Vehículos-->
+    <section  id="vehiculos" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">VEHÍCULOS</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/vehiculos/trip110.png">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">MOTO TRIP 110</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$350.000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/vehiculos/bora2013.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">AUTO BORA 2013</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$550.000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/vehiculos/volkswagenup.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">AUTO CHEVROLET CRUZ</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$750.000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Alquileres-->
+    <section  id="alquileres" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">ALQUILERES</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/alquileres/deptocentrico.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">DEPTO CÉNTRICO</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$15.000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/alquileres/ventaduplex.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">VENTA DUPLEX</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$45.000USD</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/alquileres/cabañacayasta.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">ALQ. CABAÑA CAYASTÁ</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$5500/DIA</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview1"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file1" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file1').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Ropa y Calzado-->
+    <section  id="ropaycalzado" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">ROPA Y CALZADO</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/ropaycalzado/vestidos.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">VESTIDOS MUJER</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$1800</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/ropaycalzado/ZAPATOS.png">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">ZAPATOS MUJER</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$3000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/ropaycalzado/CAMISAS.png">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">CAMISAS HOMBRE</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$3500</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview2"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file2" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file2').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Electrónica-->
+     <section  id="electronica" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">ELECTRÓNICA</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/electronica/motog6.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">MOTOROLA G6</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$16000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/electronica/PARLANTES.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">PARLANTES T&G</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$4000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/electronica/MONITOR.png">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">MONITOR SAMSUNG 19''</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$20000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview3"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file3" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file3').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Hogar-->
+        <section  id="hogar" class="mt-4 borde">
+          <div class="container">
+            <h2 class="mt-2 fw-bold">HOGAR</h2>
+            <div class="row">
+              <!--1-->
+              <div class="col-lg-3">
+                <div class="card mb-2">
+                  <img src="../img/hogar/toallones.jpg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0 fw-bold">TOALLONES UNISEX</h5>
+                    <div class="badges">
+                      <span class="badge text-dark mt-2">$3000</span>
+                    </div>
+                    <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+                  </div>
+                </div>
+              </div>
+              <!--2-->
+              <div class="col-lg-3">
+                <div class="card mb-2">
+                  <img src="../img/hogar/MUEBLEPINO.jpg">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0 fw-bold">MUEBLE DE PINO</h5>
+                    <div class="badges">
+                      <span class="badge text-dark mt-2">$25000</span>
+                    </div>
+                    <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+                  </div>
+                </div>
+              </div>
+              <!--3-->
+              <div class="col-lg-3">
+                <div class="card mb-2">
+                  <img src="../img/hogar/PAVA.png">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0 fw-bold">PAVA ELÉCTRICA</h5>
+                    <div class="badges">
+                      <span class="badge text-dark mt-2">$5000</span>
+                    </div>
+                    <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+                  </div>
+                </div>
+              </div>
+              <!--4-->
+              <div class="col-lg-3">
+                <div class="card mb-2">
+                  <div id="preview4"></div>
+                  <div class="card-body">
+                    <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                    <div class="badges">
+                      <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                    </div>
+                    <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <form action="">
+                  <input type="file"name="archivo" id="file4" accept=".jpg,.png">
+                  <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file4').click()"><br>
+                  <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!--Alimentos-->
+    <section  id="alimentos" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">ALIMENTOS</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/alimentos/ensaladas.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">ENSALADAS MENU DIARIO</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$400</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/alimentos/NUGGETSPOLLO.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">NUGGETS DE POLLO</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$700 LA DOCENA</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/alimentos/EMPANADAS.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">EMPANADAS CARNE</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$500 LA DOCENA</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview5"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file5" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file5').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Empleos-->
+    <section  id="empleos" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">EMPLEOS</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/empleos/cadete.png">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">CADETE PARA FARMACIA</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$200 LA HORA</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/empleos/JEFEDECOCINA.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">JEFE DE COCINA</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">A CONVENIR</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/empleos/VENDEDOR.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">VENDEDOR AUTOMOTOR</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$50000 POR MES</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview6"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file6" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file6').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--Jardinería-->
+     <section  id="jardineria" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">JARDINERÍA</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/jardineria/cactus.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">CACTUS Y SUCULENTAS</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$150</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/jardineria/PLANTINES.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">PLANTINES</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$200C/U</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/jardineria/HAMACAPATIO.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">HAMACA PARA PATIO</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$18000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview7"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file7" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file7').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--Varios-->
+     <section  id="varios" class="mt-4 borde">
+      <div class="container">
+        <h2 class="mt-2 fw-bold">VARIOS</h2>
+        <div class="row">
+          <!--1-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/VARIOS/mateimperial.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">MATES IMPERIALES</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$4000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--2-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/VARIOS/MOTOGUADAÑA.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">MOTOGUADAÑA</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$14000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--3-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <img src="../img/VARIOS/COCHECITO.jpg">
+              <div class="card-body">
+                <h5 class="card-title mb-0 fw-bold">COCHECITO PARA BEBÉ</h5>
+                <div class="badges">
+                  <span class="badge text-dark mt-2">$10000</span>
+                </div>
+                <h6 class="card-title mt-2 fw-bold">CONTACTO: 3496-242434</h6>
+              </div>
+            </div>
+          </div>
+          <!--4-->
+          <div class="col-lg-3">
+            <div class="card mb-2">
+              <div id="preview8"></div>
+              <div class="card-body">
+                <input type="text" class="card-title mb-2 fw-bold" placeholder="Ingrese nombre" id="titulo">
+                <div class="badges">
+                  <input type="text" id="precio" placeholder="Ingrese precio"class="fw-bold">
+                </div>
+                <input type="text" id="contacto" placeholder="Ingrese nro de contacto" class="fw-bold mt-2">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <form action="">
+              <input type="file"name="archivo" id="file8" accept=".jpg,.png">
+              <input type="button" value="SUBIR ARTÍCULO" id="boton_subir" class="fw-bold"onclick="document.getElementById('file8').click()"><br>
+              <a link href="#vehiculos"><ion-icon name="checkmark-circle-outline" class="lupa"></ion-icon></a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    
+    
+
+
+    
+  
+    
+
+
+
+
+
+
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="../app.js"></script>
+  </body>
+</html>
